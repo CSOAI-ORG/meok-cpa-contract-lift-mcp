@@ -60,7 +60,7 @@ pip install meok-cpa-contract-lift-mcp
 - **Pro** — £249/mo (dispute evidence vault + multi-user)
 - **Fleet** — £799/mo (50+ operators, audit-export, SLA)
 
-[Subscribe Pro → £249/mo](https://buy.stripe.com/4gMfZja8seUWbEx1Uc8k915) · [Talk to Nick](mailto:nicholas@meok.ai)
+[Subscribe Pro → £249/mo](https://buy.stripe.com/5kQ6oJ0xS3ce8sl7ew8k91j) · [Talk to Nick](mailto:nicholas@meok.ai)
 
 ## Regulatory basis
 
