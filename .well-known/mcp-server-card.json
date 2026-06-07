@@ -1,0 +1,37 @@
+{
+  "name": "meok-cpa-contract-lift-mcp",
+  "title": "Meok Cpa Contract Lift Mcp",
+  "description": "UK crane / hiab / plant-hire \u2014 CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract Lift triage at quote stage. The \u00a3100k+ wedge (per Baldwins v Vision \u00a3951k claim). By MEOK AI Labs.",
+  "version": "1.0.0",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "triage_at_quote"
+    },
+    {
+      "name": "validate_cpa_hire_quote"
+    },
+    {
+      "name": "validate_cpa_contract_lift_quote"
+    },
+    {
+      "name": "generate_cpa_hire_tcs"
+    },
+    {
+      "name": "generate_cpa_contract_lift_tcs"
+    },
+    {
+      "name": "analyze_baldwins_v_vision_relevance"
+    },
+    {
+      "name": "calculate_insurance_uplift"
+    },
+    {
+      "name": "prepare_dispute_evidence_pack"
+    }
+  ]
+}

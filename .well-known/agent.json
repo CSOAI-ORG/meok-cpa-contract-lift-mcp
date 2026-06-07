@@ -1,0 +1,95 @@
+{
+  "name": "meok-cpa-contract-lift-mcp",
+  "description": "UK crane / hiab / plant-hire \u2014 CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract",
+  "url": "https://proofof.ai/scorecard/meok-cpa-contract-lift-mcp.html",
+  "version": "1.0.0",
+  "protocolVersion": "0.2.0",
+  "provider": {
+    "organization": "MEOK AI Labs",
+    "url": "https://meok.ai"
+  },
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false
+  },
+  "defaultInputModes": [
+    "text"
+  ],
+  "defaultOutputModes": [
+    "text"
+  ],
+  "skills": [
+    {
+      "id": "triage_at_quote",
+      "name": "Triage At Quote",
+      "description": "triage_at_quote via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_cpa_hire_quote",
+      "name": "Validate Cpa Hire Quote",
+      "description": "validate_cpa_hire_quote via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "validate_cpa_contract_lift_quote",
+      "name": "Validate Cpa Contract Lift Quote",
+      "description": "validate_cpa_contract_lift_quote via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_cpa_hire_tcs",
+      "name": "Generate Cpa Hire Tcs",
+      "description": "generate_cpa_hire_tcs via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "generate_cpa_contract_lift_tcs",
+      "name": "Generate Cpa Contract Lift Tcs",
+      "description": "generate_cpa_contract_lift_tcs via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "analyze_baldwins_v_vision_relevance",
+      "name": "Analyze Baldwins V Vision Relevance",
+      "description": "analyze_baldwins_v_vision_relevance via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "calculate_insurance_uplift",
+      "name": "Calculate Insurance Uplift",
+      "description": "calculate_insurance_uplift via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    },
+    {
+      "id": "prepare_dispute_evidence_pack",
+      "name": "Prepare Dispute Evidence Pack",
+      "description": "prepare_dispute_evidence_pack via meok-cpa-contract-lift-mcp",
+      "tags": [
+        "mcp",
+        "compliance"
+      ]
+    }
+  ]
+}

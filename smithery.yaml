@@ -1,0 +1,34 @@
+name: meok-cpa-contract-lift-mcp
+description: 'UK crane / hiab / plant-hire — CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract'
+version: 1.0.0
+author: MEOK AI Labs
+homepage: https://proofof.ai
+repository: https://github.com/CSOAI-ORG/meok-cpa-contract-lift-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: triage_at_quote
+  description: triage at quote
+- name: validate_cpa_hire_quote
+  description: validate cpa hire quote
+- name: validate_cpa_contract_lift_quote
+  description: validate cpa contract lift quote
+- name: generate_cpa_hire_tcs
+  description: generate cpa hire tcs
+- name: generate_cpa_contract_lift_tcs
+  description: generate cpa contract lift tcs
+- name: analyze_baldwins_v_vision_relevance
+  description: analyze baldwins v vision relevance
+- name: calculate_insurance_uplift
+  description: calculate insurance uplift
+- name: prepare_dispute_evidence_pack
+  description: prepare dispute evidence pack
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

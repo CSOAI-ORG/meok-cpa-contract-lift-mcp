@@ -1,0 +1,26 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-cpa-contract-lift-mcp",
+    "description": "UK crane / hiab / plant-hire \u2014 CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract",
+    "version": "1.0.0",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-cpa-contract-lift-mcp"
+      }
+    ],
+    "capabilities": [
+      "triage_at_quote",
+      "validate_cpa_hire_quote",
+      "validate_cpa_contract_lift_quote",
+      "generate_cpa_hire_tcs",
+      "generate_cpa_contract_lift_tcs",
+      "analyze_baldwins_v_vision_relevance",
+      "calculate_insurance_uplift",
+      "prepare_dispute_evidence_pack"
+    ]
+  }
+}
