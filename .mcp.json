@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-cpa-contract-lift-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-cpa-contract-lift-mcp"
+      ]
+    }
+  }
+}
