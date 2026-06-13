@@ -1,0 +1,168 @@
+{
+  "name": "Meok Cpa Contract Lift Mcp",
+  "version": "1.0.0",
+  "url": "https://mcp.meok.ai/meok-cpa-contract-lift-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "UK crane / hiab / plant-hire — CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract Lift triage at quote stage. The £100k+ wedge (per Baldwins v Vision £951k claim). By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "triage_at_quote",
+      "name": "Triage At Quote",
+      "description": "Triage At Quote — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_cpa_hire_quote",
+      "name": "Validate Cpa Hire Quote",
+      "description": "Validate Cpa Hire Quote — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "validate_cpa_contract_lift_quote",
+      "name": "Validate Cpa Contract Lift Quote",
+      "description": "Validate Cpa Contract Lift Quote — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_cpa_hire_tcs",
+      "name": "Generate Cpa Hire Tcs",
+      "description": "Generate Cpa Hire Tcs — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_cpa_contract_lift_tcs",
+      "name": "Generate Cpa Contract Lift Tcs",
+      "description": "Generate Cpa Contract Lift Tcs — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "analyze_baldwins_v_vision_relevance",
+      "name": "Analyze Baldwins V Vision Relevance",
+      "description": "Analyze Baldwins V Vision Relevance — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "calculate_insurance_uplift",
+      "name": "Calculate Insurance Uplift",
+      "description": "Calculate Insurance Uplift — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "prepare_dispute_evidence_pack",
+      "name": "Prepare Dispute Evidence Pack",
+      "description": "Prepare Dispute Evidence Pack — a tool of the meok-cpa-contract-lift-mcp MCP.",
+      "tags": [
+        "mcp",
+        "meok"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-cpa-contract-lift-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}

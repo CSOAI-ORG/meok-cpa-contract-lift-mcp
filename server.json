@@ -1,7 +1,7 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CSOAI-ORG/meok-cpa-contract-lift-mcp",
-  "description": "UK crane / hiab / plant-hire \u2014 CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract",
+  "description": "UK crane / hiab / plant-hire — CPA Model Conditions of Hire (2011, am. 2021) Hire-only vs Contract",
   "version": "1.0.0",
   "repository": {
     "url": "https://github.com/CSOAI-ORG/meok-cpa-contract-lift-mcp",
