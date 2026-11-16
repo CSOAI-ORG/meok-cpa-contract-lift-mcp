@@ -20,7 +20,6 @@ Get the call wrong and you end up in the **Baldwins Crane Hire v Vision Modular 
 
 This MCP gives the operator the callable triage, quote validation, ready-to-issue T&C templates, and dispute-evidence checklist at the point the quote is built.
 
-> **One avoided Baldwins-style £951k counter-claim pays 100+ years of Pro tier.**
 
 ## Install
 
@@ -53,14 +52,11 @@ pip install meok-cpa-contract-lift-mcp
 | `calculate_insurance_uplift` | 15-30% Contract Lift uplift estimate + margin contribution. |
 | `prepare_dispute_evidence_pack` | 48-hour Condition 9(d) evidence checklist. |
 
-## Pricing
+## How MEOK charges
 
-- **Free** — MIT self-host
-- **Starter** — £79/mo (signed attestations + email support)
-- **Pro** — £249/mo (dispute evidence vault + multi-user)
-- **Fleet** — £799/mo (50+ operators, audit-export, SLA)
+MEOK has no subscriptions and no tiers. You pay per job, and only when the agreed artifact has been delivered to you. There is no public price list. See <https://meok.ai/pricing>.
 
-[Subscribe Pro → £249/mo](https://buy.stripe.com/aFa7sNcgAdQS0ZT1Uc8k91t) · [Talk to Nick](mailto:nicholas@meok.ai)
+This repository's source is MIT-licensed and free to self-host.
 
 ## Regulatory basis
 
